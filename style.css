@@ -133,8 +133,14 @@ button {
 
 /* LANDING */
 
+header {
+  position: relative;
+}
+
 .header__description {
   width: 40%;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__description--para {
@@ -155,7 +161,7 @@ button {
 .header__email--input {
   width: 100%;
   border-radius: 500px;
-  border: 2ps solid rgb(229, 231, 235);
+  border: 2px solid rgb(229, 231, 235);
   color: rgb(36, 62, 99);
   font-size: 16px;
   font-weight: 500;
@@ -170,7 +176,7 @@ button {
   z-index: 2;
   margin: 8px;
   height: calc(100% - 16px);
-  border-radius: 500;
+  border-radius: 500px;
   width: 160px;
   border: none;
   background-color: #6415ff;
@@ -180,6 +186,18 @@ button {
   transition: all 300ms ease;
 }
 
+.header__customer--title{
+  margin-top: 80px;
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.header__customers {
+  margin-top: 16px;
+  padding-right: 128px;
+  opacity: 0.5;
+}
 
 h1 {
   font-size: 48px;
