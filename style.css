@@ -71,7 +71,7 @@ a:hover {
 .nav__links {
   display: flex;
   align-items: center;
-  padding-bottom:  2px;
+  padding-bottom: 2px;
 }
 
 .nav__link {
@@ -101,6 +101,10 @@ a:hover {
   width: auto;
   transition: all 300ms ease;
 }
+
+.nav__link--primary:hover {
+  text-decoration: none;
+} 
 
 .btn__menu {
   background-color: transparent;
