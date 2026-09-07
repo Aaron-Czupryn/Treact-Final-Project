@@ -137,6 +137,12 @@ header {
   position: relative;
 }
 
+header .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header__description {
   width: 40%;
   display: flex;
@@ -162,6 +168,7 @@ header {
   width: 100%;
   border-radius: 500px;
   border: 2px solid rgb(229, 231, 235);
+  padding: 20px 192px 20px 32px;
   color: rgb(36, 62, 99);
   font-size: 16px;
   font-weight: 500;
@@ -197,6 +204,15 @@ header {
   margin-top: 16px;
   padding-right: 128px;
   opacity: 0.5;
+}
+
+.header__img--wrapper {
+  width: calc(100% - 40%);
+}
+
+.header__img {
+  width: 100%;
+  max-width: 768px;
 }
 
 h1 {
