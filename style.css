@@ -917,8 +917,8 @@ header .row {
 
 .start__blob--2 {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  top: 0px;
+  right: 0px;
   height: 20rem;
   width: 20rem;
   transform: translate(5rem, -16rem);
@@ -944,6 +944,11 @@ header .row {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#start .row {
+  position: relative;
+  overflow: hidden;
 }
 
 .start__title {
