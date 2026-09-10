@@ -734,7 +734,7 @@ header .row {
   position: relative;
   margin-top: 4rem;
   display: flex;
-  width: calc(100% / 3);
+  width: 100%;
   max-width: 24rem;
   flex-direction: column;
   border-radius: 0.5rem;
